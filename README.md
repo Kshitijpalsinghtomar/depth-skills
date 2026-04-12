@@ -23,11 +23,14 @@ Most skill libraries add more steps. These skills change the **cognitive mode**.
 ## Quick Start
 
 ```bash
-# Clone the full library
+# Install all skills via skills.sh (recommended)
+npx skills add Kshitijpalsinghtomar/depth-skills
+
+# Or clone the full library
 git clone https://github.com/Kshitijpalsinghtomar/depth-skills
 
 # Or copy individual skills into your agent
-cp -r depth-skills/skills/deep-think ~/.config/skills/
+cp -r depth-skills/skills/deep-think ~/.gemini/skills/
 ```
 
 **Try it now:** Add the `deep-think` skill to your AI agent and ask it a question you've asked before. Compare the depth.
@@ -261,6 +264,22 @@ Each skill uses semantic versioning: `MAJOR.MINOR`
 - **Minor** (1.0 → 1.1): Improved mechanisms, tighter constraints. Core unchanged.
 
 → See [CHANGELOG.md](CHANGELOG.md) for version history.
+
+---
+
+## Testing & Evaluation
+
+Do these skills actually work? Test them yourself with the built-in evaluation protocol:
+
+1. Pick a challenge from [`tests/test_prompts.json`](tests/test_prompts.json) (20 real-world challenges)
+2. Run it **without** any skill loaded (control)
+3. Run it **with** the target skill loaded (treatment)
+4. Score both using the [depth scoring rubric](tests/eval.md) (0-10 scale)
+5. Compare the delta
+
+→ Full protocol: [tests/eval.md](tests/eval.md) · Results: [tests/RESULTS.md](tests/RESULTS.md)
+
+**Found a difference?** Open an issue or PR with your before/after results. Community evidence makes the library stronger.
 
 ---
 
