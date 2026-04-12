@@ -1,4 +1,5 @@
 ---
+name: api-designer
 codename: API-DESIGNER
 internal: Developer-Experience-First Interface Design
 version: 1.0

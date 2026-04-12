@@ -1,4 +1,5 @@
 ---
+name: contradict
 codename: CONTRADICT
 internal: Coherence Auditor
 version: 1.1

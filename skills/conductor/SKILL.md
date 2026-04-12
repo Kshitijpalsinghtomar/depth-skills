@@ -1,4 +1,5 @@
 ---
+name: conductor
 codename: CONDUCTOR
 internal: Skill Orchestration Layer
 version: 1.1

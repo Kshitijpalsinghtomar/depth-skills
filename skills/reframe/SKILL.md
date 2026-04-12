@@ -1,4 +1,5 @@
 ---
+name: reframe
 codename: REFRAME
 internal: Representation Multiplier
 version: 1.1

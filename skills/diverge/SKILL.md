@@ -1,4 +1,5 @@
 ---
+name: diverge
 codename: DIVERGE
 internal: Path Divergence
 version: 1.1

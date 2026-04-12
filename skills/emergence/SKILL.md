@@ -1,4 +1,5 @@
 ---
+name: emergence
 codename: EMERGENCE
 internal: Interaction-Level Analyzer
 version: 1.1

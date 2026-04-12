@@ -1,4 +1,5 @@
 ---
+name: adversary
 codename: ADVERSARY
 internal: Self-Opposition Engine
 version: 1.1

@@ -1,4 +1,5 @@
 ---
+name: descend
 codename: DESCEND
 internal: Pattern Audit & First-Principles Derivation
 version: 1.1

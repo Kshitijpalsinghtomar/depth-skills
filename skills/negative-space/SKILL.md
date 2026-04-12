@@ -1,4 +1,5 @@
 ---
+name: negative-space
 codename: NEGATIVE-SPACE
 internal: Absence Detector
 version: 1.1

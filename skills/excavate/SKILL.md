@@ -1,4 +1,5 @@
 ---
+name: excavate
 codename: EXCAVATE
 internal: Assumption Archaeology
 version: 1.1

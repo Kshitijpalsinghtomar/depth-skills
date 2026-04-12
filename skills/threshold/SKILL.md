@@ -1,4 +1,5 @@
 ---
+name: threshold
 codename: THRESHOLD
 internal: Commitment Gateway
 version: 1.1

@@ -1,4 +1,5 @@
 ---
+name: fidelity
 codename: FIDELITY
 internal: Compression Integrity Verifier
 version: 1.1

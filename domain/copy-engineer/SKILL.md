@@ -1,4 +1,5 @@
 ---
+name: copy-engineer
 codename: COPY-ENGINEER
 internal: Conversion-Oriented Writing
 version: 1.0

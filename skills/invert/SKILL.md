@@ -1,4 +1,5 @@
 ---
+name: invert
 codename: INVERT
 internal: Constraint & Belief Inversion
 version: 1.1

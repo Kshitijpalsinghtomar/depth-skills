@@ -1,4 +1,5 @@
 ---
+name: anchor
 codename: ANCHOR
 internal: Objective Drift Detector
 version: 1.1

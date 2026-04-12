@@ -1,4 +1,5 @@
 ---
+name: system-architect
 codename: SYSTEM-ARCHITECT
 internal: Data-First System Design
 version: 1.0

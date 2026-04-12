@@ -1,4 +1,5 @@
 ---
+name: deep-think
 codename: DEEP-THINK
 internal: The Depth Protocol
 version: 1.1

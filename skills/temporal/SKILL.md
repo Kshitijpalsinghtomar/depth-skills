@@ -1,4 +1,5 @@
 ---
+name: temporal
 codename: TEMPORAL
 internal: Cross-Time Reasoner
 version: 1.1

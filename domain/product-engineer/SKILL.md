@@ -1,4 +1,5 @@
 ---
+name: product-engineer
 codename: PRODUCT-ENGINEER
 internal: Job-to-be-Done Thinking
 version: 1.0
