@@ -140,42 +140,42 @@ Every skill has a **codename** (what you invoke), an **internal name** (what it 
 
 | Codename | Internal Name | Version | Trigger |
 |---|---|---|---|
-| [`deep-think`](skills/deep-think/SKILL.md) | The Depth Protocol | v1.1 | Complex problem, "go deeper", any task where the first answer is too easy |
-| [`adversary`](skills/adversary/SKILL.md) | Self-Opposition Engine | v1.1 | Any significant decision, any plan before execution |
-| [`diverge`](skills/diverge/SKILL.md) | Path Divergence | v1.1 | "What's the best way to", any architectural choice |
-| [`descend`](skills/descend/SKILL.md) | Pattern Audit & First-Principles Derivation | v1.1 | "Nothing works", familiar solution feels wrong, novel problems |
+| [`deep-think`](skills/ds-deep-think/SKILL.md) | The Depth Protocol | v1.1 | Complex problem, "go deeper", any task where the first answer is too easy |
+| [`adversary`](skills/ds-adversary/SKILL.md) | Self-Opposition Engine | v1.1 | Any significant decision, any plan before execution |
+| [`diverge`](skills/ds-diverge/SKILL.md) | Path Divergence | v1.1 | "What's the best way to", any architectural choice |
+| [`descend`](skills/ds-descend/SKILL.md) | Pattern Audit & First-Principles Derivation | v1.1 | "Nothing works", familiar solution feels wrong, novel problems |
 
 ### 2. Excavation — What to dig for
 
 | Codename | Internal Name | Version | Trigger |
 |---|---|---|---|
-| [`excavate`](skills/excavate/SKILL.md) | Assumption Archaeology | v1.1 | "What am I assuming", high-stakes plans |
-| [`invert`](skills/invert/SKILL.md) | Constraint & Belief Inversion | v1.1 | "We have no choice", "are we sure", boxed-in tradeoffs |
-| [`reframe`](skills/reframe/SKILL.md) | Representation Multiplier | v1.1 | Stuck, "reframe this", same-looking solutions |
-| [`negative-space`](skills/negative-space/SKILL.md) | Absence Detector | v1.1 | "What am I missing", "is this complete" |
+| [`excavate`](skills/ds-excavate/SKILL.md) | Assumption Archaeology | v1.1 | "What am I assuming", high-stakes plans |
+| [`invert`](skills/ds-invert/SKILL.md) | Constraint & Belief Inversion | v1.1 | "We have no choice", "are we sure", boxed-in tradeoffs |
+| [`reframe`](skills/ds-reframe/SKILL.md) | Representation Multiplier | v1.1 | Stuck, "reframe this", same-looking solutions |
+| [`negative-space`](skills/ds-negative-space/SKILL.md) | Absence Detector | v1.1 | "What am I missing", "is this complete" |
 
 ### 3. Integrity — How to trust the output
 
 | Codename | Internal Name | Version | Trigger |
 |---|---|---|---|
-| [`contradict`](skills/contradict/SKILL.md) | Coherence Auditor | v1.1 | Multi-part plans, long answers, design documents |
-| [`provenance`](skills/provenance/SKILL.md) | Evidence Tagger & Confidence Calibrator | v1.1 | "Is this true", "how sure are you" |
-| [`fidelity`](skills/fidelity/SKILL.md) | Compression Integrity Verifier | v1.1 | "Summarize", "TLDR", condensing complex analysis |
+| [`contradict`](skills/ds-contradict/SKILL.md) | Coherence Auditor | v1.1 | Multi-part plans, long answers, design documents |
+| [`provenance`](skills/ds-provenance/SKILL.md) | Evidence Tagger & Confidence Calibrator | v1.1 | "Is this true", "how sure are you" |
+| [`fidelity`](skills/ds-fidelity/SKILL.md) | Compression Integrity Verifier | v1.1 | "Summarize", "TLDR", condensing complex analysis |
 
 ### 4. Governance & Systems
 
 | Codename | Internal Name | Version | Trigger |
 |---|---|---|---|
-| [`anchor`](skills/anchor/SKILL.md) | Objective Drift Detector | v1.1 | Long tasks, multi-step execution, scope creep |
-| [`threshold`](skills/threshold/SKILL.md) | Commitment Gateway | v1.1 | Irreversible decisions, schema changes, API contracts |
-| [`emergence`](skills/emergence/SKILL.md) | Interaction-Level Analyzer | v1.1 | Multi-component systems, integrations |
-| [`temporal`](skills/temporal/SKILL.md) | Cross-Time Reasoner | v1.1 | Architecture decisions, technology choices |
+| [`anchor`](skills/ds-anchor/SKILL.md) | Objective Drift Detector | v1.1 | Long tasks, multi-step execution, scope creep |
+| [`threshold`](skills/ds-threshold/SKILL.md) | Commitment Gateway | v1.1 | Irreversible decisions, schema changes, API contracts |
+| [`emergence`](skills/ds-emergence/SKILL.md) | Interaction-Level Analyzer | v1.1 | Multi-component systems, integrations |
+| [`temporal`](skills/ds-temporal/SKILL.md) | Cross-Time Reasoner | v1.1 | Architecture decisions, technology choices |
 
 ### 5. Meta — Orchestration
 
 | Codename | Internal Name | Version | Trigger |
 |---|---|---|---|
-| [`conductor`](skills/conductor/SKILL.md) | Skill Orchestration Layer | v1.1 | Complex tasks, "give me everything" |
+| [`conductor`](skills/ds-conductor/SKILL.md) | Skill Orchestration Layer | v1.1 | Complex tasks, "give me everything" |
 
 ---
 
