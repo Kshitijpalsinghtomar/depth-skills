@@ -4,6 +4,16 @@ internal: Coherence Auditor
 version: 1.1
 tier: integrity
 trigger: any multi-part answer, any design document, any plan with more than 5 steps, "does this make sense", "is this consistent"
+description: Cross-compares every claim in an output to detect internal contradictions that sequential generation hides.
+author: depth-skills
+tags: [coherence, consistency, contradiction, audit, claims]
+artifacts:
+  - claim-extraction
+  - conflict-list
+  - severity-classification
+  - resolution-log
+  - coherence-verdict
+composable_with: [provenance, fidelity, adversary, negative-space]
 ---
 
 # CONTRADICT — Coherence Auditor

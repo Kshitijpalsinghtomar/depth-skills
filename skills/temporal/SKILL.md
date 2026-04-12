@@ -4,6 +4,17 @@ internal: Cross-Time Reasoner
 version: 1.1
 tier: systems
 trigger: any architecture decision, "will this scale", "future-proof", any technology choice, any decision where the best option today might be the worst in six months
+description: Evaluates decisions across multiple plausible futures, analyzing option value and temporal regret before commitment.
+author: depth-skills
+tags: [temporal, futures, strategy, option-value, regret-analysis]
+artifacts:
+  - time-horizon
+  - rate-of-change-map
+  - three-futures
+  - option-value-analysis
+  - temporal-regret-test
+  - transition-design
+composable_with: [threshold, adversary, emergence, diverge]
 ---
 
 # TEMPORAL — Cross-Time Reasoner

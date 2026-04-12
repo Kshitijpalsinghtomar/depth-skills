@@ -3,6 +3,10 @@ codename: REFACTOR-ENGINEER
 internal: Behavior-Preserving Transformation
 version: 1.0
 category: domain
+trigger: code cleanup, refactoring, "clean this up", structural improvement, technical debt
+description: Enforces characterize-before-change discipline with continuous green tests, separating structural changes from behavioral ones.
+author: depth-skills
+tags: [refactoring, testing, behavior-preservation, code-quality, incremental]
 ---
 
 # Refactor Engineer

@@ -3,6 +3,10 @@ codename: API-DESIGNER
 internal: Developer-Experience-First Interface Design
 version: 1.0
 category: domain
+trigger: API design, endpoint creation, interface contracts, "design this API", any public-facing contract
+description: Designs API contracts for consumer experience first — making correct usage obvious and incorrect usage impossible.
+author: depth-skills
+tags: [api, contracts, developer-experience, naming, versioning]
 ---
 
 # API Designer

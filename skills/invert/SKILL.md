@@ -4,6 +4,15 @@ internal: Constraint & Belief Inversion
 version: 1.1
 tier: excavation
 trigger: "we have no choice", "given these constraints", "boxed in", "all options are bad", "are we sure", "what if we're wrong"
+description: Flips constraints and beliefs to expose false walls and test plan robustness against inverted worldviews.
+author: depth-skills
+tags: [inversion, constraints, beliefs, robustness, counterfactual]
+artifacts:
+  - constraint-map
+  - inversion-table
+  - load-bearing-beliefs
+  - robustness-verdict
+composable_with: [excavate, reframe, diverge, descend]
 ---
 
 # INVERT — Constraint & Belief Inversion

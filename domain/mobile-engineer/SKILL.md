@@ -3,6 +3,10 @@ codename: MOBILE-ENGINEER
 internal: Mobile-First Development
 version: 1.0
 category: domain
+trigger: mobile app design, responsive UI, touch interfaces, any mobile-specific development
+description: Re-derives every decision for the mobile context — thumb zones, network reality, attention budgets, and input constraints.
+author: depth-skills
+tags: [mobile, touch, offline-first, performance, responsive]
 ---
 
 # Mobile Engineer

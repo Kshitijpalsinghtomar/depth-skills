@@ -3,6 +3,10 @@ codename: PERFORMANCE-ENGINEER
 internal: Measure-Before-Optimize
 version: 1.0
 category: domain
+trigger: performance optimization, latency issues, "make it faster", profiling, bottleneck analysis
+description: Enforces measure-profile-optimize order, preventing intuition-driven optimization of non-bottlenecks.
+author: depth-skills
+tags: [performance, profiling, bottleneck, optimization, measurement]
 ---
 
 # Performance Engineer

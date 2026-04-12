@@ -4,6 +4,17 @@ internal: Interaction-Level Analyzer
 version: 1.1
 tier: systems
 trigger: any system with 3+ interacting components, "will this work together", any integration, any feature touching multiple existing systems
+description: Analyzes what components create together that none intended — feedback loops, contention, timing bugs, and assumption collisions.
+author: depth-skills
+tags: [systems, interactions, emergence, integration, feedback-loops]
+artifacts:
+  - interaction-map
+  - feedback-loop-scan
+  - contention-analysis
+  - timing-dependency-scan
+  - assumption-collision-scan
+  - emergence-map
+composable_with: [negative-space, temporal, excavate, adversary]
 ---
 
 # EMERGENCE — Interaction-Level Analyzer

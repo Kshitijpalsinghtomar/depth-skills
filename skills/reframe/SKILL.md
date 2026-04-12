@@ -4,6 +4,15 @@ internal: Representation Multiplier
 version: 1.1
 tier: excavation
 trigger: stuck, "another way to think about this", "reframe", same-looking solutions, muddy tradeoffs, "I can't see a way forward"
+description: Solves the same problem through multiple independent representations, then triangulates structural truth.
+author: depth-skills
+tags: [framing, representation, lenses, stuck, breakthrough]
+artifacts:
+  - current-frame-analysis
+  - independent-lens-solutions
+  - cross-frame-analysis
+  - hybrid-recommendation
+composable_with: [invert, diverge, descend, negative-space]
 ---
 
 # REFRAME — Representation Multiplier

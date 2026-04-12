@@ -4,6 +4,14 @@ internal: The Depth Protocol
 version: 1.1
 tier: cognition
 trigger: complex problem, ambiguous question, high-stakes decision, "go deeper", "what am I missing", any task where the first answer forms too quickly
+description: Forces the model to interrupt its surface response and activate deeper knowledge pathways before answering.
+author: depth-skills
+tags: [depth, reasoning, cognition, premature-closure, activation]
+artifacts:
+  - suppression-log
+  - deep-path-report
+  - depth-comparison
+composable_with: [adversary, diverge, provenance, conductor]
 ---
 
 # DEEP-THINK — The Depth Protocol

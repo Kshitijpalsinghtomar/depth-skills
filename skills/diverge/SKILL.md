@@ -4,6 +4,14 @@ internal: Path Divergence
 version: 1.1
 tier: cognition
 trigger: "what's the best way to", "how should I", design choice, architecture decision, any time the model is about to commit to one path
+description: Forces generation of genuinely different solution paths before committing, preventing single-path pattern gravity.
+author: depth-skills
+tags: [alternatives, exploration, architecture, pattern-gravity, options]
+artifacts:
+  - path-map
+  - divergence-test
+  - stress-comparison
+composable_with: [deep-think, adversary, threshold, reframe]
 ---
 
 # DIVERGE — Path Divergence

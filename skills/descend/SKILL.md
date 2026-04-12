@@ -4,6 +4,14 @@ internal: Pattern Audit & First-Principles Derivation
 version: 1.1
 tier: cognition
 trigger: "nothing works", "tried everything", familiar solution feels wrong, experts would disagree, best practices conflict, novel problem with no template
+description: Verifies whether the problem was correctly identified before solving, auditing pattern matches against first principles.
+author: depth-skills
+tags: [first-principles, pattern-audit, root-cause, derivation, novel-problems]
+artifacts:
+  - pattern-identification-card
+  - precondition-table
+  - derivation-layers
+composable_with: [excavate, reframe, invert, deep-think]
 ---
 
 # DESCEND — Pattern Audit & First-Principles Derivation

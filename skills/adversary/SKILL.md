@@ -4,6 +4,14 @@ internal: Self-Opposition Engine
 version: 1.1
 tier: cognition
 trigger: any significant decision, "check this", "what could go wrong", any plan before execution, any architecture before implementation, any answer that arrived with suspiciously high confidence
+description: Forces the model to build a genuine prosecution case against its own answer before delivering it.
+author: depth-skills
+tags: [challenge, stress-test, decision-quality, opposition, red-team]
+artifacts:
+  - prosecution-case
+  - evidence-consequence-table
+  - survival-verdict
+composable_with: [deep-think, threshold, provenance, contradict]
 ---
 
 # ADVERSARY — Self-Opposition Engine

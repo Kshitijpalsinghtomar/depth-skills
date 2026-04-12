@@ -4,6 +4,15 @@ internal: Objective Drift Detector
 version: 1.1
 tier: governance
 trigger: any task longer than 5 steps, conversation more than 3 exchanges deep, "while we're at it", "we should also", current work feels important but disconnected from original question
+description: Detects and corrects objective drift during extended tasks by periodically checking work against the original request.
+author: depth-skills
+tags: [drift, focus, scope, objective, direction]
+artifacts:
+  - anchor-statement
+  - drift-check
+  - drift-recovery
+  - scope-boundary
+composable_with: [conductor, threshold, fidelity]
 ---
 
 # ANCHOR — Objective Drift Detector

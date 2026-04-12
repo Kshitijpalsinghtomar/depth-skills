@@ -3,6 +3,10 @@ codename: PRODUCT-ENGINEER
 internal: Job-to-be-Done Thinking
 version: 1.0
 category: domain
+trigger: product design, feature scoping, "what should we build", user research, MVP planning
+description: Anchors product decisions to the user's job-to-be-done before features, architecture, or code.
+author: depth-skills
+tags: [product, jtbd, user-needs, scoping, outcomes]
 ---
 
 # Product Engineer

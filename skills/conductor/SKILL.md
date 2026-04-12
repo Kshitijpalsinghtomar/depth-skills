@@ -4,6 +4,16 @@ internal: Skill Orchestration Layer
 version: 1.1
 tier: meta
 trigger: any complex task, any task where a single skill feels insufficient, "give me everything", any high-stakes decision, any task where you're not sure how deep to go
+description: Self-selects and sequences the right depth-skills proportional to task consequence, preventing both under- and over-analysis.
+author: depth-skills
+tags: [orchestration, meta, sequencing, proportional-depth, budget]
+artifacts:
+  - task-profile
+  - depth-budget
+  - skill-selection
+  - execution-sequence
+  - orchestration-log
+composable_with: [all-skills]
 ---
 
 # CONDUCTOR — Skill Orchestration Layer

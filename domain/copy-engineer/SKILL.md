@@ -3,6 +3,10 @@ codename: COPY-ENGINEER
 internal: Conversion-Oriented Writing
 version: 1.0
 category: domain
+trigger: writing copy, landing pages, marketing text, UI microcopy, any user-facing language
+description: Replaces adjectives with evidence, claims with demonstrations, and promises with proof for conversion-oriented writing.
+author: depth-skills
+tags: [copywriting, conversion, clarity, microcopy, specificity]
 ---
 
 # Copy Engineer

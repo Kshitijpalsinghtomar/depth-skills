@@ -3,6 +3,10 @@ codename: SYSTEM-ARCHITECT
 internal: Data-First System Design
 version: 1.0
 category: domain
+trigger: backend design, service architecture, data modeling, system boundaries, any new system from scratch
+description: Forces data-model-first thinking before service boundaries or code, treating the schema as the geological layer everything else sits on.
+author: depth-skills
+tags: [architecture, data-model, services, failure-modes, scale]
 ---
 
 # System Architect

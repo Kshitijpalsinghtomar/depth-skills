@@ -4,6 +4,15 @@ internal: Absence Detector
 version: 1.1
 tier: excavation
 trigger: "what am I missing", "is this complete", "anything else", any answer that feels thorough but might have invisible holes
+description: Illuminates what the answer never addressed — dimensions, stakeholders, and failure categories invisible from the activation path.
+author: depth-skills
+tags: [completeness, absence, gaps, blindspots, coverage]
+artifacts:
+  - dimension-scan
+  - stakeholder-scan
+  - failure-category-scan
+  - silence-report
+composable_with: [excavate, emergence, contradict, provenance]
 ---
 
 # NEGATIVE-SPACE — Absence Detector
