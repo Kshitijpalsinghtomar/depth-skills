@@ -19,8 +19,6 @@ Depth-skills are **cognitive mode-shifting protocols**, not checklists.
 
 Every skill must force the AI model to generate written artifacts that change the content of its context window — physically altering what it generates next. If a step says "consider X" instead of "write X," it's not a skill. It's a wish.
 
-Read `internal/forge/SKILL.md` before proposing any changes. It defines the quality standard for every skill in this library.
-
 ### 3. Types of Contributions
 
 #### Improving an Existing Skill
