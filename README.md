@@ -199,7 +199,7 @@ These terms appear throughout the skills. Understanding them unlocks the system:
 
 In addition to the cognitive-mode skills above, this library includes **domain process skills** for specific engineering contexts — expert-level thinking for particular types of work.
 
-→ See [domain/README.md](domain/README.md) for the full list (7 domain skills).
+These 7 domain skills are also located in the `skills/` directory alongside the core cognitive skills.
 
 ---
 
@@ -244,15 +244,13 @@ depth-skills/
 │   ├── emergence/
 │   ├── temporal/
 │   └── conductor/
-└── domain/                 ← 7 domain-specific process skills
-    ├── product-engineer/
-    ├── system-architect/
-    ├── copy-engineer/
-    ├── api-designer/
-    ├── mobile-engineer/
-    ├── performance-engineer/
-    └── refactor-engineer/
-
+│   ├── product-engineer/
+│   ├── system-architect/
+│   ├── copy-engineer/
+│   ├── api-designer/
+│   ├── mobile-engineer/
+│   ├── performance-engineer/
+│   └── refactor-engineer/
 ```
 
 ---
