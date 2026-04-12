@@ -228,22 +228,22 @@ depth-skills/
 ├── LICENSE                 ← MIT License
 ├── .gitignore
 ├── skills/                 ← 16 cognitive-mode skills
-│   ├── deep-think/
-│   ├── adversary/
-│   ├── diverge/
-│   ├── descend/
-│   ├── excavate/
-│   ├── invert/
-│   ├── reframe/
-│   ├── negative-space/
-│   ├── contradict/
-│   ├── provenance/
-│   ├── fidelity/
-│   ├── anchor/
-│   ├── threshold/
-│   ├── emergence/
-│   ├── temporal/
-│   └── conductor/
+│   ├── ds-deep-think/
+│   ├── ds-adversary/
+│   ├── ds-diverge/
+│   ├── ds-descend/
+│   ├── ds-excavate/
+│   ├── ds-invert/
+│   ├── ds-reframe/
+│   ├── ds-negative-space/
+│   ├── ds-contradict/
+│   ├── ds-provenance/
+│   ├── ds-fidelity/
+│   ├── ds-anchor/
+│   ├── ds-threshold/
+│   ├── ds-emergence/
+│   ├── ds-temporal/
+│   ├── ds-conductor/
 │   ├── product-engineer/
 │   ├── system-architect/
 │   ├── copy-engineer/
