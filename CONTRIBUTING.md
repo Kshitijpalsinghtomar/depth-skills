@@ -41,11 +41,21 @@ If your answers are strong, write the skill following the standard format:
 
 ```yaml
 ---
+name: skill name
 codename: SKILL-NAME
 internal: Full Internal Name
 version: 1.0
 tier: cognition | excavation | integrity | governance | systems | meta
 trigger: when this skill activates
+author: depth-skills
+tags: [orchestration, meta, sequencing, proportional-depth, budget, etc..]
+artifacts:
+  - task-profile
+  - depth-budget
+  - skill-selection
+  - execution-sequence
+  - etc..
+composable_with: [all-skills]
 ---
 ```
 
