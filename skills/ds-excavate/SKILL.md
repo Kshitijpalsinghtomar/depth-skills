@@ -4,16 +4,35 @@ codename: EXCAVATE
 internal: Assumption Archaeology
 version: 1.1
 tier: excavation
-trigger: "what am I assuming", "is this safe", high-stakes plan, any answer that feels solid but hasn't been tested at its roots
+
+trigger:
+  - "what am I assuming"
+  - "is this safe"
+  - "high-stakes plan"
+  - "any answer that feels solid but hasn't been tested at its roots"
+
 description: Digs beneath logic to inspect unchecked premises, rating each assumption by collapse severity.
+
 author: depth-skills
-tags: [assumptions, foundations, premises, risk, validation]
+
+tags:
+  - assumptions
+  - foundations
+  - premises
+  - risk
+  - validation
+
 artifacts:
   - assumption-list
   - deep-layer-questions
   - collapse-ratings
   - resolution-log
-composable_with: [invert, negative-space, threshold, adversary]
+
+composable_with:
+  - invert
+  - negative-space
+  - threshold
+  - adversary
 ---
 
 # EXCAVATE — Assumption Archaeology
