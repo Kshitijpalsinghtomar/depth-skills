@@ -4,16 +4,35 @@ codename: FIDELITY
 internal: Compression Integrity Verifier
 version: 1.1
 tier: integrity
-trigger: "summarize", "give me the short version", "TLDR", "bottom line", any time complex analysis is condensed into a final answer
+
+trigger:
+  - "summarize"
+  - "give me the short version"
+  - "TLDR"
+  - "bottom line"
+  - "any time complex analysis is condensed into a final answer"
+
 description: Prevents lossy compression from erasing conditions, exceptions, and uncertainties during summarization.
+
 author: depth-skills
-tags: [compression, summary, fidelity, truth-preservation, delivery]
+
+tags:
+  - compression
+  - summary
+  - fidelity
+  - truth-preservation
+  - delivery
+
 artifacts:
   - critical-information-tags
   - compressed-version
   - fidelity-diff
   - fidelity-verdict
-composable_with: [provenance, contradict, anchor]
+
+composable_with:
+  - provenance
+  - contradict
+  - anchor
 ---
 
 # FIDELITY — Compression Integrity Verifier
