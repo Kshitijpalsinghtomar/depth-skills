@@ -4,17 +4,37 @@ codename: DESCEND
 internal: Pattern Audit & First-Principles Derivation
 version: 1.1
 tier: cognition
-trigger: "nothing works", "tried everything", familiar solution feels wrong, experts would disagree, best practices conflict, novel problem with no template
+
+trigger:
+  - "nothing works"
+  - "tried everything"
+  - "familiar solution feels wrong"
+  - "experts would disagree"
+  - "best practices conflict"
+  - "novel problem with no template"
+
 description: Verifies whether the problem was correctly identified before solving, auditing pattern matches against first principles.
+
 author: depth-skills
-tags: [first-principles, pattern-audit, root-cause, derivation, novel-problems]
+
+tags:
+  - first-principles
+  - pattern-audit
+  - root-cause
+  - derivation
+  - novel-problems
+
 artifacts:
   - pattern-identification-card
   - precondition-table
   - derivation-layers
-composable_with: [excavate, reframe, invert, deep-think]
----
 
+composable_with:
+  - excavate
+  - reframe
+  - invert
+  - deep-think
+---
 # DESCEND — Pattern Audit & First-Principles Derivation
 
 Every answer you generate is built from patterns — compressed experience retrieved from training: "In situations like X, do Y." This is efficient when the match is real.
@@ -177,3 +197,5 @@ This often reveals that the correct pattern was a different one entirely — one
 ## The Deeper Purpose
 
 The model's output is built on pattern retrieval. This is efficient when patterns fit. When they don't, the model forces the closest match and hopes — producing answers that are correct for a different problem. This skill gives an alternative to force-fitting: verify the match explicitly; if it fails, derive from the domain's fundamental truths rather than from similar-looking solved problems. The most dangerous sentence in engineering is "this is just like the last one." This skill makes sure you know whether it is before you commit.
+
+
