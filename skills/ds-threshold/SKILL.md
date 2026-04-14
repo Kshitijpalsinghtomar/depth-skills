@@ -4,16 +4,37 @@ codename: THRESHOLD
 internal: Commitment Gateway
 version: 1.1
 tier: governance
-trigger: "should we go with", "let's just do", "final decision", any schema change, any public API contract, any irreversible deployment
+
+trigger:
+  - "should we go with"
+  - "let's just do"
+  - "final decision"
+  - "any schema change"
+  - "any public API contract"
+  - "any irreversible deployment"
+
 description: Gates commitment on irreversible decisions by measuring reversal cost and enforcing proportional exploration depth.
+
 author: depth-skills
-tags: [decisions, irreversibility, commitment, gates, reversal-cost]
+
+tags:
+  - decisions
+  - irreversibility
+  - commitment
+  - gates
+  - reversal-cost
+
 artifacts:
   - threshold-classification
   - depth-requirement
   - termination-gates
   - exit-plan
-composable_with: [adversary, diverge, temporal, conductor]
+
+composable_with:
+  - adversary
+  - diverge
+  - temporal
+  - conductor
 ---
 
 # THRESHOLD — Commitment Gateway
