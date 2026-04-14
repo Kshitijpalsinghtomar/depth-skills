@@ -4,16 +4,36 @@ codename: PROVENANCE
 internal: Evidence Tagger & Confidence Calibrator
 version: 1.1
 tier: integrity
-trigger: "is this true", "how sure are you", "how do you know", any recommendation the user will act on, any factual claim in high-stakes context
+
+trigger:
+  - "is this true"
+  - "how sure are you"
+  - "how do you know"
+  - "any recommendation the user will act on"
+  - "any factual claim in high-stakes context"
+
 description: Tags every claim as fact, inference, or guess and computes calibrated confidence to prevent epistemic flattening.
+
 author: depth-skills
-tags: [evidence, confidence, calibration, epistemic, trust]
+
+tags:
+  - evidence
+  - confidence
+  - calibration
+  - epistemic
+  - trust
+
 artifacts:
   - evidence-ledger
   - inflation-audit
   - confidence-scorecard
   - action-map
-composable_with: [contradict, fidelity, adversary, threshold]
+
+composable_with:
+  - contradict
+  - fidelity
+  - adversary
+  - threshold
 ---
 
 # PROVENANCE — Evidence Tagger & Confidence Calibrator
