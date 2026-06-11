@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "category": "architecture",
+    "challenge": "Design a real-time notification system for a social media app with 10M daily active users. The system needs to handle push notifications, in-app notifications, email digests, and notification preferences.",
+    "target_skills": ["deep-think", "diverge", "emergence"],
+    "what_surface_answers_miss": "Interaction between notification channels, backpressure under viral events, preference storage at scale, notification fatigue modeling"
+  },
+  {
+    "id": 2,
+    "category": "architecture",
+    "challenge": "We're building a multi-tenant SaaS platform. Each tenant needs isolated data, custom domains, and the ability to have their own API keys. Design the architecture.",
+    "target_skills": ["deep-think", "diverge", "temporal"],
+    "what_surface_answers_miss": "Tenant isolation vs shared infrastructure tradeoffs, noisy neighbor problems, migration path from shared to isolated as tenants grow"
+  },
+  {
+    "id": 3,
+    "category": "architecture",
+    "challenge": "Design the data model and API for a collaborative document editor like Google Docs, supporting real-time co-editing by up to 50 simultaneous users.",
+    "target_skills": ["deep-think", "emergence", "temporal"],
+    "what_surface_answers_miss": "CRDT vs OT tradeoff analysis, conflict resolution edge cases, offline-to-online reconciliation, cursor presence at scale"
+  },
+  {
+    "id": 4,
+    "category": "architecture",
+    "challenge": "Our monolith handles payments, user management, inventory, and order processing. We want to break it into microservices. Where do we start?",
+    "target_skills": ["descend", "threshold", "temporal"],
+    "what_surface_answers_miss": "Data coupling analysis before service boundaries, distributed transaction risks, whether microservices are even the right answer for this team size"
+  },
+  {
+    "id": 5,
+    "category": "architecture",
+    "challenge": "Design an AI-powered content moderation pipeline for a user-generated content platform. It needs to handle text, images, and video at 100K submissions per hour.",
+    "target_skills": ["deep-think", "emergence", "negative-space"],
+    "what_surface_answers_miss": "Appeal workflow, false positive costs vs false negative costs, adversarial content evolution, human-in-the-loop degradation at scale"
+  },
+  {
+    "id": 6,
+    "category": "debugging",
+    "challenge": "Our API randomly returns 500 errors under load. It works fine in staging. The error rate is about 2% at peak traffic (5000 req/s). Logs show 'connection reset by peer' from our PostgreSQL database.",
+    "target_skills": ["descend", "excavate", "invert"],
+    "what_surface_answers_miss": "Connection pool exhaustion vs PgBouncer config, difference between staging and prod connection limits, whether the DB is the actual bottleneck or a symptom"
+  },
+  {
+    "id": 7,
+    "category": "debugging",
+    "challenge": "Users report that our search feature returns slightly different results each time they search the same query. The results aren't wrong, just inconsistent. We use Elasticsearch.",
+    "target_skills": ["descend", "excavate"],
+    "what_surface_answers_miss": "Shard routing, replica lag, scoring randomness in tie-breaking, whether this is actually a bug or expected behavior"
+  },
+  {
+    "id": 8,
+    "category": "debugging",
+    "challenge": "Our React app's performance has degraded over the last 3 months. Initial load was 1.2s, now it's 4.8s. No single PR seems to have caused it. Bundle size grew from 280KB to 890KB.",
+    "target_skills": ["descend", "excavate", "invert"],
+    "what_surface_answers_miss": "Dependency tree bloat analysis, tree-shaking failures, whether the real issue is bundle size or render performance, incremental degradation patterns"
+  },
+  {
+    "id": 9,
+    "category": "debugging",
+    "challenge": "Our cron job that processes daily reports has been gradually slowing down. 6 months ago it took 12 minutes, now it takes 3 hours. Data volume grew 40%, but processing time grew 15x.",
+    "target_skills": ["descend", "excavate"],
+    "what_surface_answers_miss": "Superlinear scaling (N² or worse algorithm), missing index on growing table, memory pressure causing swap, whether the data growth is in the dimension that matters"
+  },
+  {
+    "id": 10,
+    "category": "debugging",
+    "challenge": "Intermittent test failures in CI. Tests pass locally 100% of the time. In CI, about 5% of runs fail with different tests failing each time. No pattern in which tests fail.",
+    "target_skills": ["excavate", "invert", "negative-space"],
+    "what_surface_answers_miss": "Shared state between tests, timing-dependent assertions, CI resource constraints vs local, test isolation gaps, whether the 'randomness' actually has a pattern in resource contention"
+  },
+  {
+    "id": 11,
+    "category": "decision",
+    "challenge": "We're choosing between PostgreSQL and MongoDB for a new product. The team has experience with both. The product is a project management tool with complex permissions, nested tasks, and real-time collaboration.",
+    "target_skills": ["adversary", "threshold", "temporal", "provenance"],
+    "what_surface_answers_miss": "How permission complexity maps to relational vs document, whether 'real-time' actually needs document flexibility, 3-year schema evolution cost, which choice closes more future doors"
+  },
+  {
+    "id": 12,
+    "category": "decision",
+    "challenge": "Should we build our own authentication system or use Auth0/Clerk? We're a 5-person startup with a B2B SaaS product. We have one engineer who's built auth before.",
+    "target_skills": ["adversary", "threshold", "temporal"],
+    "what_surface_answers_miss": "Hidden compliance requirements for B2B, vendor lock-in reversal cost, whether 'one engineer who's built auth' is a strength or a risk, what happens when that engineer leaves"
+  },
+  {
+    "id": 13,
+    "category": "decision",
+    "challenge": "We have a working MVP with 200 users. Should we rewrite the codebase before scaling, or continue building on the current foundation? Current stack is Python/Flask, considering Go or Rust.",
+    "target_skills": ["adversary", "temporal", "threshold", "invert"],
+    "what_surface_answers_miss": "Whether the 'scaling problem' is real or imagined at 200 users, rewrite survival rate statistics, whether Go/Rust solves the actual bottleneck, team hiring implications of language choice"
+  },
+  {
+    "id": 14,
+    "category": "decision",
+    "challenge": "A major client wants a custom feature that would take 3 weeks and deviate from our roadmap. They represent 30% of our revenue. The feature would only benefit them.",
+    "target_skills": ["adversary", "threshold", "reframe"],
+    "what_surface_answers_miss": "Revenue concentration risk, precedent setting, whether the feature reveals a general need, exit cost if client leaves anyway, team morale impact of deviation"
+  },
+  {
+    "id": 15,
+    "category": "decision",
+    "challenge": "We're considering open-sourcing our core library. It would mean competitors can use our code, but it might attract contributors and build trust. Our business model is SaaS, not the library itself.",
+    "target_skills": ["adversary", "temporal", "diverge", "negative-space"],
+    "what_surface_answers_miss": "License strategy (copyleft vs permissive), support burden, whether 'attract contributors' is realistic for this type of project, competitive moat analysis, community management cost"
+  },
+  {
+    "id": 16,
+    "category": "completeness",
+    "challenge": "Review this deployment plan: 1) Run migrations, 2) Deploy new code to staging, 3) Run smoke tests, 4) Deploy to production, 5) Monitor for 30 minutes.",
+    "target_skills": ["negative-space", "contradict", "adversary"],
+    "what_surface_answers_miss": "Rollback plan, migration backward compatibility, what 'smoke tests' specifically cover, what 'monitor' means (which metrics), blue-green vs rolling, database backup before migration"
+  },
+  {
+    "id": 17,
+    "category": "completeness",
+    "challenge": "We need an API rate limiting strategy. Proposed: 100 requests per minute per API key, return 429 when exceeded.",
+    "target_skills": ["negative-space", "emergence", "reframe"],
+    "what_surface_answers_miss": "Burst allowance, sliding vs fixed window, distributed rate limiting across multiple servers, different limits per endpoint, free vs paid tier implications, what happens to in-flight requests"
+  },
+  {
+    "id": 18,
+    "category": "completeness",
+    "challenge": "Summarize the key risks of migrating from AWS to GCP for our infrastructure team.",
+    "target_skills": ["fidelity", "negative-space", "provenance"],
+    "what_surface_answers_miss": "Service-specific migration complexity (not all services have equivalents), data transfer costs and timeline, team retraining, vendor-specific features that don't translate, contractual obligations"
+  },
+  {
+    "id": 19,
+    "category": "completeness",
+    "challenge": "Write the technical requirements for a user authentication system. It should support email/password, Google OAuth, and magic links.",
+    "target_skills": ["negative-space", "contradict", "excavate"],
+    "what_surface_answers_miss": "Account linking (same email, different providers), session management, token refresh strategy, password reset flow, rate limiting on auth endpoints, audit logging for compliance"
+  },
+  {
+    "id": 20,
+    "category": "completeness",
+    "challenge": "Our e-commerce checkout converts at 2.3%. Industry average is 3.1%. What should we investigate?",
+    "target_skills": ["negative-space", "reframe", "excavate"],
+    "what_surface_answers_miss": "Whether 2.3% is actually bad for this specific niche, mobile vs desktop breakdown, where in the funnel users drop, payment method coverage, trust signals, whether the traffic quality is the real issue"
+  },
+  {
+    "id": 21,
+    "category": "clarification",
+    "challenge": "The user sends a message: 'Make the app faster'. That's the entire message.",
+    "target_skills": ["clarify"],
+    "what_surface_answers_miss": "The AI should recognize this is unanswerable without clarification. Should ask: faster for who? Which screen? Current performance metrics? Budget?"
+  },
+  {
+    "id": 22,
+    "category": "clarification",
+    "challenge": "User says: 'What's the best database?' with no other context.",
+    "target_skills": ["clarify"],
+    "what_surface_answers_miss": "The AI must recognize this as unanswerable. Best for what use case? Team expertise? Scale? Budget?"
+  },
+  {
+    "id": 23,
+    "category": "proportional",
+    "challenge": "What color should I make the submit button?",
+    "target_skills": ["shallow"],
+    "what_surface_answers_miss": "Surface answers often overthink this with accessibility, brand guidelines, etc. This is a low-stakes decision that deserves a simple answer."
+  },
+  {
+    "id": 24,
+    "category": "proportional",
+    "challenge": "Should I use let or const in JavaScript?",
+    "target_skills": ["shallow"],
+    "what_surface_answers_miss": "Surface answers explain the technical difference comprehensively. This is a simple preference question that should be answered directly."
+  },
+  {
+    "id": 25,
+    "category": "teaching",
+    "challenge": "Explain how OAuth 2.0 works to a non-technical person.",
+    "target_skills": ["teach"],
+    "what_surface_answers_miss": "Surface answers use technical jargon (tokens, scopes, redirects) without explanation. Should use analogies like 'giving a valet key'."
+  },
+  {
+    "id": 26,
+    "category": "teaching",
+    "challenge": "How does React's useState hook work under the hood?",
+    "target_skills": ["teach"],
+    "what_surface_answers_miss": "Surface answers explain implementation details without ensuring understanding. Should check if explanation covers the 'why' and 'what it means for me as a developer'."
+  }
+]
