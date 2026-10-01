@@ -1,0 +1,28 @@
+# Depth-Skills Benchmark Requirements
+# Install with: pip install -r requirements.txt
+
+# Core
+asyncio
+dataclasses
+pathlib
+argparse
+json
+hashlib
+time
+statistics
+datetime
+typing
+
+# Optional: for real model integration
+# openai
+# anthropic
+# google-generativeai
+
+# Optional: for embedding-based CIM
+# sentence-transformers
+# torch
+# numpy
+
+# Optional: for human evaluation UI
+# streamlit
+# pandas

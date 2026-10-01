@@ -1,0 +1,33 @@
+{
+  "thinking_parameters": {
+    "depth": {
+      "min_assumptions": 10,
+      "min_branches": 3,
+      "min_attacks": 5,
+      "min_lenses": 3,
+      "min_futures": 3
+    },
+    "rigor": {
+      "collapse_threshold": "C2",
+      "attack_severity_floor": "SIGNIFICANT",
+      "contradiction_severity_floor": "STRUCTURAL",
+      "min_fact_ratio": 0.6,
+      "max_guess_tolerance": 0.15
+    },
+    "recursion": {
+      "max_depth": 1,
+      "convergence_threshold": 0.95,
+      "require_external_grounding": true
+    },
+    "integration": {
+      "require_interference": true,
+      "require_recursive_audit": false,
+      "min_cim": 0.5
+    },
+    "verification": {
+      "require_human_eval": false,
+      "require_held_out": true,
+      "require_ensemble": true
+    }
+  }
+}

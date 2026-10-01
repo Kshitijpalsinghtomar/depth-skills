@@ -9,7 +9,37 @@ desktop.ini
 *.swp
 *.swo
 *~
-internal
 
-# Gemini/AI working files
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Benchmark results
+benchmark/results_*.json
+benchmark/comparison.json
+benchmark/report.md
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI working files
 .gemini/

@@ -4,6 +4,96 @@ All notable changes to depth-skills are documented here.
 
 ---
 
+## 2026-10-02 — v2.1: Automatic Orchestration & Premium Architecture
+
+### Major Release: Fully Automatic Orchestration + Premium Cognitive Architecture
+
+### New Premium Skills Added (4)
+
+| Codename | Internal Name | Version | Purpose |
+|---|---|---|---|
+| [`boundary-detector`](skills/ds-boundary-detector/SKILL.md) | Knowledge Boundary Probe | v1.0 | UnknownBench-style probes; detects voids before skills activate |
+| [`meta-learning`](skills/ds-meta-learning/SKILL.md) | Cognitive Evolution Engine | v1.0 | Pattern extraction → skill synthesis → CONDUCTOR policy learning |
+| [`verification-gates`](skills/ds-verification-gates/SKILL.md) | Depth Verification Engine | v1.0 | Final auditor: V1-V6 re-verification, ungameable gates, red-teaming, Depth Report |
+| `ds-core` | Mathematical Framework | v1.0 | ADS, CEI, SI, EC, OV, CIM, RSM, Gates V1-V6, thinking parameters |
+
+### CONDUCTOR v2.1 — Fully Automatic Orchestration
+
+**Complete rewrite — now fully automatic:**
+- **Auto-classifies tasks** — extracts complexity, consequence, reversibility, novelty, breadth, domain tags
+- **Auto-assigns depth budget** — computes budget score, picks Budget A-D with ADS targets
+- **Auto-selects skills** — maps task profile → skills using domain tags and characteristics
+- **Auto-sequences with interference validation** — builds execution order, validates interference matrix
+- **Auto-executes and logs** — tracks phase activation, CEI, SI, interference, gates
+- **Auto-final validation** — computes ADS, verifies gates, checks CIM, recursive stability
+- **Auto-generates Depth Report** — JSON output with all metrics, verdict, reproducibility
+- **Auto-meta-learning** — extracts patterns, updates policy, runs regression checks
+- **Auto-stops** — when ADS target met, diminishing returns, gates pass, ADS/CEI peaks
+
+### All 19 Cognitive Skills Updated to v2.0
+
+**Every cognitive skill enhanced with:**
+- Mathematical depth metrics (ADS, CEI, SI, EC, OV, CIM, RSM)
+- Recursive self-audit with RSM convergence detection
+- Cognitive trace artifacts (heatmaps, graphs, landscapes, certificates)
+- Verification gates (V1-V6) with machine-checkable criteria
+- Interference requirements (provides/receives with minimum ADS gains)
+- Thinking parameters with presets (quick/standard/deep/forensic)
+- MATHEMATICS COMPLIANCE sections
+
+**Per-skill highlights:**
+- `deep-think` — Recursive audit, activation heatmap, assumption dependency graph, Gates V1-V3
+- `adversary` — Recursive opposition, Constitutional critique, external grounding, Gates V3-V5
+- `diverge` — MCTS exploration, CIM independence verification, transfer testing, decision landscape
+- `excavate` — Sensitivity surfaces, counterfactual worlds, boundary probes, Gates V1-V2
+- `reframe` — CIM-verified lens independence, invariant extraction, decision landscape
+- `invert` — Sensitivity surfaces, belief network analysis, counterfactual worlds, robustness cert
+- `contradict` — Claim graph, global coherence certificate, cascade analysis, Gates V1,V3,V5
+- `provenance` — Calibration curves (ECE), epistemic audit trails, inflation detection, Gates V5,V6
+- `fidelity` — Algorithmic fidelity diff, compression integrity certificate, Gates V1,V5,V6
+- `negative-space` — Dimension completeness proofs, STRIDE security scan, 25-category failure taxonomy
+- `temporal` — Regret surfaces, option value optimization, transition certificates, Gates V4,V6
+- `threshold` — Reversal cost functions R(t), commitment certificates, early warning signals
+- `anchor` — Drift quantification (cosine similarity), scope boundary certificate, Gates V1,V6
+- `clarify` — Clarification calculus (II×UCL×PAP+DC), readiness certificate, Gates V1,V3
+- `shallow` — Depth budget calculus, proportionality certificate, Gates V1,V6
+- `teach` — Gap severity calculus (BF×0.5+RF×0.3+PF×0.2), teaching effectiveness cert
+- `emergence` — Risk quantification (weighted factors), interaction topology certificate
+- `descend` — Sensitivity surfaces, counterfactual worlds, derivation stack, Gates V1-V3
+- `invert` — Sensitivity surfaces, belief network analysis, counterfactual worlds, robustness cert
+
+### All 7 Domain Skills Updated to v2.0
+
+| Skill | Key v2.0 Features |
+|---|---|
+| `product-engineer` | JTBD calculus, outcome verification certificate |
+| `system-architect` | Architecture risk calculus, boundary integrity certificate |
+| `copy-engineer` | Specificity calculus, conversion proof certificate |
+| `api-designer` | DX calculus, contract integrity certificate |
+| `mobile-engineer` | Mobile fitness calculus, mobile readiness certificate |
+| `performance-engineer` | Optimization ROI calculus, optimization certificate |
+| `refactor-engineer` | Refactor safety calculus, refactor certificate |
+
+### Benchmarking Framework
+
+- `benchmark/run.py` — Runs prompts with explicit version control (v1.x vs v2.x)
+- `benchmark/score.py` — Computes ADS, CEI, SI, EC, OV, composite, qualitative deltas
+- `benchmark/report.py` — Generates markdown reports with per-category breakdowns
+- `benchmark/params_standard.json` / `params_deep.json` — Thinking parameter presets
+- `tests/test_prompts.json` — 8 test cases across 7 categories
+
+### Benchmark Results (v1.x vs v2.x)
+
+| Metric | Old (v1.x) | Premium (v2.x) | Delta |
+|---|---:|---:|---:|
+| **ADS** | 0.23 | 1.41 | **+1.179 (+507%)** |
+| **CEI** | 0.18 | 4.43 | **+4.25** |
+| **SI** | 0.33 | 17.33 | **+17.0** |
+| **EC** | 0.35 | 0.70 | **+0.35** |
+| **Composite** | 19.5 | 78.0 | **+58.5 (+300%)** |
+
+---
+
 ## 2026-06-11 — v1.2: Cognitive Completeness
 
 ### New Skills Added (3)
