@@ -80,8 +80,16 @@ By applying multiple cognitive restraints simultaneously, we stop the AI from ge
 git clone https://github.com/Kshitijpalsinghtomar/depth-skills
 cd depth-skills
 
-# Or copy individual skills into your agent
+# And copy individual skills into your agent
 cp -r skills/ds-conductor ~/.claude/skills/
+
+
+# Or via skills.sh
+npx skills add kshitijpalsinghtomar/depth-skills
+
+# And copy individual skills into your agent
+npx skills add https://github.com/kshitijpalsinghtomar/depth-skills --skill conductor
+
 ```
 
 **Recommended:** Start with `ds-conductor` v2.1 — it **automatically** selects appropriate skills based on task complexity, runs boundary detection first, sequences skills with interference validation, runs meta-learning post-execution, and verifies with ungameable gates. This gives you proportional depth **automatically**.
