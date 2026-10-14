@@ -120,53 +120,53 @@ These skills work natively with any AI agent or tool that accepts markdown instr
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           PREMIUM COGNITIVE STACK v2.x                      │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│  USER INTERFACE                                                              │
-│  ├── Thinking Parameter Dashboard (depth, rigor, recursion presets)        │
-│  ├── Cognitive Trace Viewer (heatmaps, graphs, landscapes)                 │
-│  ├── Verification Gate Status (green/red per gate)                         │
-│  └── Reproducibility Export (JSON + narrative)                             │
+│  USER INTERFACE                                                             │
+│  ├── Thinking Parameter Dashboard (depth, rigor, recursion presets)         │
+│  ├── Cognitive Trace Viewer (heatmaps, graphs, landscapes)                  │
+│  ├── Verification Gate Status (green/red per gate)                          │
+│  └── Reproducibility Export (JSON + narrative)                              │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│  ORCHESTRATION LAYER                                                         │
-│  ├── CONDUCTOR v2.1 (auto-select, auto-sequence, auto-validate, auto-stop) │
+│  ORCHESTRATION LAYER                                                        │
+│  ├── CONDUCTOR v2.1 (auto-select, auto-sequence, auto-validate, auto-stop)  │
 │  ├── META-LEARNING (pattern extraction → skill synthesis → policy learning) │
-│  └── PARAMETER ENGINE (presets: quick/standard/deep/forensic)              │
+│  └── PARAMETER ENGINE (presets: quick/standard/deep/forensic)               │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │  COGNITIVE SKILLS (Enhanced v2.0)                                           │
-│  ├── DEEP-THINK + METRICS + RECURSION + VISUALIZATION + GATES              │
-│  ├── ADVERSARY + RECURSIVE_OPPOSITION + CONSTITUTIONAL + UNGAMEABLE        │
-│  ├── DIVERGE + MCTS_EXPLORATION + CIM + TRANSFER_TEST                      │
-│  ├── EXCAVATE + SENSITIVITY_SURFACE + COUNTERFACTUAL_WORLDS + BOUNDARY     │
-│  ├── INVERT + SENSITIVITY_SURFACE + BELIEF_NETWORK + ROBUSTNESS_CERT       │
-│  ├── REFRAME + CIM + INVARIANT_EXTRACTION + DECISION_LANDSCAPE             │
-│  ├── NEGATIVE-SPACE + COMPLETENESS_PROOF + SECURITY_SCAN + FAILURE_TAXONOMY│
-│  ├── CONTRADICT + CLAIM_GRAPH + COHERENCE_CERT + GATES                     │
-│  ├── PROVENANCE + CALIBRATION_CURVES + AUDIT_TRAIL + INFLATION_DETECTION   │
-│  ├── TEMPORAL + REGRET_SURFACE + OPTION_VALUE + TRANSITION_CERT            │
-│  ├── THRESHOLD + REVERSAL_COST_FUNCTION + COMMITMENT_CERT + EWI            │
-│  ├── BOUNDARY-DETECTOR (UnknownBench probes, void detection, gates all)    │
-│  ├── META-LEARNING (pattern extraction, skill synthesis, policy learning)  │
-│  └── VERIFICATION-GATES (V1-V6 + ungameable + red-team + Depth Report)     │
+│  ├── DEEP-THINK + METRICS + RECURSION + VISUALIZATION + GATES               │
+│  ├── ADVERSARY + RECURSIVE_OPPOSITION + CONSTITUTIONAL + UNGAMEABLE         │
+│  ├── DIVERGE + MCTS_EXPLORATION + CIM + TRANSFER_TEST                       │
+│  ├── EXCAVATE + SENSITIVITY_SURFACE + COUNTERFACTUAL_WORLDS + BOUNDARY      │
+│  ├── INVERT + SENSITIVITY_SURFACE + BELIEF_NETWORK + ROBUSTNESS_CERT        │
+│  ├── REFRAME + CIM + INVARIANT_EXTRACTION + DECISION_LANDSCAPE              │
+│  ├── NEGATIVE-SPACE + COMPLETENESS_PROOF + SECURITY_SCAN + FAILURE_TAXONOMY │
+│  ├── CONTRADICT + CLAIM_GRAPH + COHERENCE_CERT + GATES                      │
+│  ├── PROVENANCE + CALIBRATION_CURVES + AUDIT_TRAIL + INFLATION_DETECTION    │
+│  ├── TEMPORAL + REGRET_SURFACE + OPTION_VALUE + TRANSITION_CERT             │
+│  ├── THRESHOLD + REVERSAL_COST_FUNCTION + COMMITMENT_CERT + EWI             │
+│  ├── BOUNDARY-DETECTOR (UnknownBench probes, void detection, gates all)     │
+│  ├── META-LEARNING (pattern extraction, skill synthesis, policy learning)   │
+│  └── VERIFICATION-GATES (V1-V6 + ungameable + red-team + Depth Report)      │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │  DOMAIN SKILLS (Enhanced v2.0)                                              │
-│  ├── PRODUCT-ENGINEER (JTBD calculus, outcome verification)                │
-│  ├── SYSTEM-ARCHITECT (architecture risk calculus, boundary integrity)     │
-│  ├── COPY-ENGINEER (specificity calculus, conversion proof)                │
-│  ├── API-DESIGNER (DX calculus, contract integrity)                        │
-│  ├── MOBILE-ENGINEER (mobile fitness calculus, readiness cert)             │
-│  ├── PERFORMANCE-ENGINEER (ROI calculus, optimization cert)                │
-│  └── REFACTOR-ENGINEER (safety calculus, refactor cert)                    │
+│  ├── PRODUCT-ENGINEER (JTBD calculus, outcome verification)                 │
+│  ├── SYSTEM-ARCHITECT (architecture risk calculus, boundary integrity)      │
+│  ├── COPY-ENGINEER (specificity calculus, conversion proof)                 │
+│  ├── API-DESIGNER (DX calculus, contract integrity)                         │
+│  ├── MOBILE-ENGINEER (mobile fitness calculus, readiness cert)              │
+│  ├── PERFORMANCE-ENGINEER (ROI calculus, optimization cert)                 │
+│  └── REFACTOR-ENGINEER (safety calculus, refactor cert)                     │ 
 ├─────────────────────────────────────────────────────────────────────────────┤
-│  VERIFICATION ENGINE                                                         │
-│  ├── Gates V1-V6 (machine-checkable)                                       │
-│  ├── Ungameable Gates (human eval, held-out, ensemble critic)              │
-│  ├── Red-Team Gate (active gaming detection)                               │
-│  └── Depth Report Generator (cryptographically signed)                     │
+│  VERIFICATION ENGINE                                                        │
+│  ├── Gates V1-V6 (machine-checkable)                                        │
+│  ├── Ungameable Gates (human eval, held-out, ensemble critic)               │
+│  ├── Red-Team Gate (active gaming detection)                                │
+│  └── Depth Report Generator (cryptographically signed)                      │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│  INFRASTRUCTURE                                                              │
-│  ├── Plugin Registry v1 (frozen interface, versioned, sandboxed)           │
-│  ├── Skill Runtime (tool registry, tool calls, execution traces)           │
-│  ├── Benchmark Suite (standardized prompts, statistical testing)           │
-│  └── SDK/API for programmatic orchestration                                │
+│  INFRASTRUCTURE                                                             │
+│  ├── Plugin Registry v1 (frozen interface, versioned, sandboxed)            │
+│  ├── Skill Runtime (tool registry, tool calls, execution traces)            │
+│  ├── Benchmark Suite (standardized prompts, statistical testing)            │
+│  └── SDK/API for programmatic orchestration                                 │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
